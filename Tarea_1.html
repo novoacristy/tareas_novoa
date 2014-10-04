@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>EvaluaciónInicial</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+    
+    <style type="text/css" media="screen">
+		html, body{
+			font-family: Verdana, Geneva, sans-serif;
+			background: #09F; 
+			color: #FFF;
+			text-align: center;
+			margin: 0;
+			padding: 0;
+		}
+		
+		
+		h1{
+			margin: 60px;
+			font-size: 34px;
+			margin-bottom: 5px;
+		}
+		
+		p{
+			font-size: 12px;
+			font-weight: bold;
+		}
+			
+		#content{
+			 width: 100%;
+			 height: 100%;
+			 top: 0;
+			 left: 0;
+			 border: 30px solid #000;
+			 border-bottom: 90px solid #000;
+			 box-sizing: border-box;
+			 position: fixed;
+			 display: none;
+		}	
+		
+		#transparencia{
+			width: 100%;
+			height: 100%;
+			background: #000;
+			opacity: .5;
+		}
+		
+			
+		#menu ul{
+			text-align: center;
+		}
+		
+		#menu li{
+			display: inline-block;
+		}
+		
+		
+		#menu a{
+			text-transform: uppercase;
+			font-family: Verdana, Geneva, sans-serif; 
+			display: block;
+			line-height: 40px;
+			padding: 0 15px;
+			color: #FFF;
+			text-decoration: none;
+			transition: ease-in .2s;
+		}
+			
+		
+		#menu a:hover{
+			color: #09F;
+			position: relative;
+			bottom: 5px;
+		}
+			
+				
+		
+		a #btn_menu {
+			/*background: #999;*/
+			position: fixed;
+			z-index: 100px; 
+			width: 30px;
+			height: 30px;
+			display: inline-block;
+			bottom: 41px;
+		}
+		
+		a .linea{
+			background: #999;
+			width: 30px;
+			height: 6px;
+			margin-bottom: 4px;
+		}
+		
+		a:hover .linea{
+			background: #FFF;
+			width: 30px;
+			height: 6px;
+			margin-bottom: 4px;
+		}		
+			
+		#menu li{
+			display: inline-block;
+		}
+	</style>
+
+</head>
+
+<body>
+
+    <div id="content"> <!--Abre div content-->
+        <div id="transparencia"></div>	
+        <div id="menu">
+            <ul id="secciones">
+                <li class="lista"> <a href=""> About </a></li>
+                <li class="lista"> <a href=""> Skills </a></li>
+                <li class="lista" style="margin-right: 35px;"> <a href=""> Work </a></li>
+                <li class="lista" style="margin-left: 35px;"> <a href=""> Blog </a> </li>
+                <li class="lista"> <a href=""> Clients </a> </li>
+                <li class="lista"> <a href=""> Contact </a> </li>
+            </ul>        
+        </div>
+    </div> <!--Cierra div content-->
+	
+    <a href=""> <!--Enlace boton menu-->
+        <div id="btn_menu">
+        	<div class="linea"></div>
+            <div class="linea"></div>
+            <div class="linea"></div>
+        </div>
+    </a>
+    
+    <!--CONTENIDO-->
+    <h1> Evaluación Inicial </h1>
+    <p><h3> Tec Web 1</h3><p>
+            
+    <h1> Evaluación Inicial </h1>
+    <p><h3> Tec Web 1</h3><p>
+            
+    <h1> Evaluación Inicial </h1>
+    <p><h3> Tec Web 1</h3><p>
+    <h1> Evaluación Inicial </h1>
+    <p><h3> Tec Web 1</h3><p>
+            
+    <h1> Evaluación Inicial </h1>
+    <p><h3> Tec Web 1</h3><p>
+            
+    <h1> Evaluación Inicial </h1>
+    <p><h3> Tec Web 1</h3><p>
+            
+    <h1> Evaluación Inicial </h1>
+    <p><h3> Tec Web 1</h3><p>
+            
+    <h1> Evaluación Inicial </h1>
+    <p><h3> Tec Web 1</h3><p>
+            
+    <h1> Evaluación Inicial </h1>
+    <p><h3> Tec Web 1</h3><p>
+            
+    <h1> Evaluación Inicial </h1>
+    <p><h3> Tec Web 1</h3><p>
+    
+    <!---------------------------------JAVASCRIPT--------------------------------------> 
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+    
+    <script type="text/javascript">
+        $( 'a #btn_menu' ).click(function() {
+          $( "#content" ).toggle( "fade" );
+          return false;
+        });	
+    </script>
+            
+</body>
+</html>
