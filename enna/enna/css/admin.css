@@ -1,0 +1,83 @@
+table{
+	margin: 0 auto;
+	width: 960px;
+	margin-top: 20px;
+}
+
+table th{
+	background: #031A29;
+	color: #FFF;
+	font-family: 'Michroma', sans-serif;
+	font-size:14px;
+	
+}
+
+table td{
+	border: 1px solid #CCC;
+	background: #CCC;
+	text-align: left;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+table tr td.link{
+	font-family: 'Michroma', sans-serif;
+	text-align:center;
+}
+
+table tr td textarea{
+	width: 800px;
+	height: 90px;
+	font-size: 14px;
+	margin-left: 75px;
+}
+
+.img_tab_min{
+	width:30px;
+}
+
+.crear_btn{
+	color: #000;
+	background: #CCC;
+	padding: 5px;
+	border-radius: 10px;
+}
+/*-------------------*/
+#menu_admin{
+	background: #031A29;
+	width:100%;
+	z-index:90;
+	position:fixed;
+	margin-top: 45%;
+	z-index: 100;
+}
+
+.secciones2{
+	/*background:#CCC;*/
+}
+
+ul.secciones2{
+	text-align: center;
+	margin: 3px 0px 7px 0px;
+}
+
+.secciones2 li:first-child{
+	margin-left: 0;
+}
+
+.secciones2 li{
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.secciones2 li div{
+	width: 106px;
+	height: 106px;
+	/*border-radius: 60px;*/
+	margin:auto;
+}
+
+.scroll{
+	width: 960px;
+	height: 250px;
+    overflow: scroll;
+}
